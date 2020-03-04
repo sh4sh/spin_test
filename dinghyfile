@@ -49,7 +49,7 @@
 					"id": "5c31baf0-9e2b-4c47-9e18-fdf91f9a0545"
 				},
 				"dir": "subdir",
-				"name": "Terraform",
+				"name": "tfstage",
 				"overrides": {},
 				"planForDestroy": true,
 				"targets": [
