@@ -16,7 +16,7 @@
   "overrides": {},
   "planForDestroy": true,
   "targets": [
-    "something.here"
+    "something.here.test"
   ],
   "type": "terraform",
   "workspace": "test"
