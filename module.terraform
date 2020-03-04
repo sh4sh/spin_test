@@ -11,7 +11,7 @@
     "artifact": null,
     "id": "{{ var "id" }}"
   },
-  "dir": "subdir",
+  "dir": "{{ var "dir" }}",
   "name": "{{ var "name" }}",
   "overrides": {},
   "planForDestroy": true,
