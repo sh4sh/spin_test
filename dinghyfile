@@ -1,21 +1,37 @@
 {
-  "application": "test",
-  "pipelines": [
-    {
-      "application": "test",
-      "keepWaitingPipelines": false,
-      "limitConcurrent": true,
-      "name": "Made By Armory Pipeline Template",
-      "stages": [
-        {
-          "name": "Wait",
-          "refId": "1",
-          "requisiteStageRefIds": [],
-          "type": "wait",
-          "waitTime": 10
-        }
-      ],
-      "triggers": []
-    }
-  ]
+	"application": "test",
+	"pipelines": [{
+		"application": "test",
+		"keepWaitingPipelines": false,
+		"limitConcurrent": true,
+		"name": "Made By Armory Pipeline Template",
+		"expectedArtifacts": [{
+			"defaultArtifact": {
+				"customKind": true,
+				"id": "5ae2ddcd-f2fb-4b84-a5fd-d580bfdbe6f8"
+			},
+			"displayName": "wonderful-deer-7",
+			"id": "5c31baf0-9e2b-4c47-9e18-fdf91f9a0545",
+			"matchArtifact": {
+				"artifactAccount": "custom-artifact",
+				"customKind": true,
+				"id": "f2125233-fa93-4831-806d-e1f8da5dd41a",
+				"name": "test_art",
+				"reference": "Anything",
+				"type": "custom/object"
+			},
+			"useDefaultArtifact": false,
+			"usePriorArtifact": false
+		}],
+		"stages": [{
+				"name": "Wait",
+				"refId": "1",
+				"requisiteStageRefIds": [],
+				"type": "wait",
+				"waitTime": 10
+			}
+
+		],
+		"triggers": []
+	}]
 }
