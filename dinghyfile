@@ -29,6 +29,27 @@
 				"requisiteStageRefIds": [],
 				"type": "wait",
 				"waitTime": 10
+			},
+			{
+				"action": "plan",
+				"artifacts": [{
+					"account": "custom-artifact",
+					"id": "5c31baf0-9e2b-4c47-9e18-fdf91f9a0545"
+				}],
+				"backendArtifact": {
+					"account": "custom-artifact",
+					"artifact": null,
+					"id": "5c31baf0-9e2b-4c47-9e18-fdf91f9a0545"
+				},
+				"dir": "subdir",
+				"name": "Terraform",
+				"overrides": {},
+				"planForDestroy": true,
+				"targets": [
+					"something.here"
+				],
+				"type": "terraform",
+				"workspace": "test"
 			}
 
 		],
