@@ -2,17 +2,17 @@
   "action": "plan",
   "artifacts": [
     {
-      "account": {{ var "account" }},
-      "id": {{ var "id" }}
+      "account": "{{ var "account" }}",
+      "id": "{{ var "id" }}"
     }
   ],
   "backendArtifact": {
-    "account": {{ var "account" }},
+    "account": "{{ var "account" }}",
     "artifact": null,
-    "id": {{ var "id" }}
+    "id": "{{ var "id" }}"
   },
   "dir": "subdir",
-  "name": {{ var "name" }},
+  "name": "{{ var "name" }}",
   "overrides": {},
   "planForDestroy": true,
   "targets": [
