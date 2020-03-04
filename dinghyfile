@@ -24,6 +24,21 @@
 			"usePriorArtifact": false
 		}],
 		"stages": [{
+				{
+					module "module.terraform"
+					"name"
+					"terraform"
+					"account"
+					"custom-artifact"
+					"id"
+					"5c31baf0-9e2b-4c47-9e18-fdf91f9a0545"
+
+				}
+			},
+
+
+
+			{
 				"name": "Wait",
 				"refId": "1",
 				"requisiteStageRefIds": [],
