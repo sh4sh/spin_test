@@ -13,7 +13,7 @@
   },
   "dir": "{{ var "dir" }}",
   "name": "{{ var "name" }}",
-  "version": "0.12.0",
+  "terraformVersion": "0.12.0",
   "overrides": {},
   "planForDestroy": true,
   "targets": [
