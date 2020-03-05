@@ -13,6 +13,7 @@
   },
   "dir": "{{ var "dir" }}",
   "name": "{{ var "name" }}",
+  "version": "{{ var "ver" }}",
   "overrides": {},
   "planForDestroy": true,
   "targets": [
