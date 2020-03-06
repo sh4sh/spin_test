@@ -13,12 +13,12 @@
   },
   "dir": "{{ var "dir" }}",
   "name": "{{ var "name" }}",
-  "terraformVersion": "0.12.0",
   "overrides": {},
   "planForDestroy": true,
   "targets": [
     "something.here.test"
   ],
+  "terraformVersion": "0.12.0",
   "type": "terraform",
   "workspace": "test"
 }
